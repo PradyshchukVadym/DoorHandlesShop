@@ -23,8 +23,6 @@ export const Catalog = () => {
   const [isLoaded, setIsLoaded] = useState(false);
   const [isRemoveSelected, setIsRemoveSelected] = useState(false);
 
-  console.log("Test", test);
-
   useEffect(() => {
     const fetchData = async () => {
       try {
