@@ -1,0 +1,106 @@
+.wrapperCatalogContainer {
+  margin: 0 100px;
+}
+
+.titleCatalog {
+  margin: 0;
+  margin-top: 40px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 42px;
+}
+
+.btnBoxResetFiltr {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.selectBoxContainer {
+  width: 230px;
+}
+
+.ResetFiltr {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 7px 72px;
+  border: 1px solid rgb(173, 215, 255);
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.ResetFiltr:hover {
+  background-color: #94a5f5;
+}
+.ResetFiltr:focus {
+  outline: none;
+}
+.ResetFiltr:active {
+  background-color: #94a5f5;
+  transform: scale(0.98);
+}
+
+.filterWrapper {
+  width: 287px;
+  border: 1px solid rgb(196, 205, 213);
+}
+
+.filterBlock {
+  padding: 24px;
+}
+
+.accordionFiltr {
+  margin-bottom: 10px;
+}
+
+.bodyContainer {
+  display: flex;
+  margin-top: 32px;
+
+  .productCardContainer {
+    margin-left: 32px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+}
+
+.btnFilter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+
+  .saveFilter {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .resetFilter {
+    width: 100%;
+    background-color: #6c757d;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .saveFilter:hover {
+    background-color: #0056b3; /* Темнее при наведении */
+  }
+
+  .resetFilter:hover {
+    background-color: #5a6268; /* Темнее при наведении */
+  }
+}

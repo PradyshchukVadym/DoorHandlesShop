@@ -1,0 +1,16 @@
+.form {
+  width: 100%;
+  max-width: 500px;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.testCom {
+  padding: 10px;
+  background-color: blueviolet;
+  color: black;
+  border: none;
+  font-size: 16px;
+}

@@ -1,0 +1,104 @@
+.modalWindow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Поверх остальных элементов */
+}
+
+.signInContainer {
+  position: relative; /* Относительное позиционирование для контейнера */
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.closeWindow {
+  position: absolute;
+  top: -10px;
+  right: -12px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.titleModal {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.inputLogin,
+.inputPassword {
+  margin-bottom: 15px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.loginInBtn,
+.registrarionBtn {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.loginIn {
+  border-radius: 100px;
+  background: linear-gradient(180deg, rgb(142, 233, 2), rgb(79, 156, 44) 100%);
+  padding: 10px 30px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
+  transition: box-shadow 0.3s ease;
+}
+
+.registrarion {
+  padding: 10px 10px;
+  border-radius: 100px;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.15);
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  width: 120px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.loginIn:hover {
+  background-color: #0056b3;
+}
+
+.loginIn:focus {
+  outline: none;
+}

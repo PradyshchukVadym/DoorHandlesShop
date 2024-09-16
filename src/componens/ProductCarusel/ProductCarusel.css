@@ -1,0 +1,126 @@
+.ProductCaruselContainer {
+  background-color: rgb(247, 247, 247);
+}
+
+.imgLeftBlock {
+  width: 500px;
+  height: 570px;
+  display: flex;
+  justify-content: center;
+
+  .imgLeftBlock {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.containerBlock {
+  display: flex;
+  justify-content: center;
+  padding-top: 130px;
+  gap: 140px;
+}
+
+.titleRightt {
+  width: 450px;
+  margin-top: 15px;
+  .titleProduct {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 62px;
+    color: rgb(22, 28, 36);
+    margin: 0;
+  }
+  .desc,
+  .installation {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(69, 79, 91);
+    width: 280px;
+    margin-top: 20px;
+  }
+  .priceProductTitle {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgb(69, 79, 91);
+    margin-top: 32px;
+    margin: 0;
+  }
+  .totalPrice {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+    margin: 0;
+    .priceTitle {
+      margin: 0;
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 29px;
+    }
+    .priceWithout {
+      margin-left: 12px;
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 29px;
+      color: rgb(164, 164, 164);
+      text-decoration: line-through;
+    }
+  }
+  .addBasket {
+    padding: 12px 37px;
+    background-color: rgb(66, 149, 228);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 16px;
+  }
+  .addBasket:hover {
+    background-color: #45a049;
+  }
+  .addBasket:focus {
+    outline: none; /* Убирает стандартную рамку браузера */
+  }
+  .addBasket:active {
+    background-color: #3e8e41;
+    transform: scale(0.98);
+  }
+}
+
+.carusel {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+
+  .left {
+    cursor: pointer;
+  }
+  .right {
+    cursor: pointer;
+  }
+
+  .points {
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: 24px;
+
+    .point {
+      cursor: pointer;
+      margin-left: 16px;
+      margin-right: 16px;
+    }
+
+    .smallPoint {
+      cursor: pointer;
+    }
+
+    .bigPoint {
+      margin: 0 16px;
+      cursor: pointer;
+    }
+  }
+}

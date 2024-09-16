@@ -1,0 +1,147 @@
+.infoClientCompany {
+  background-color: rgb(242, 248, 255);
+  display: flex;
+  justify-content: center;
+
+  .cardClientContainer {
+    display: flex;
+    justify-content: center;
+
+    .cardsInfo {
+      margin: 40px;
+      .numberOfCustomers {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 38px;
+        color: rgb(22, 28, 36);
+        text-align: center;
+        margin: 0;
+      }
+
+      .infCard {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+        color: rgb(69, 79, 91);
+        text-align: center;
+      }
+    }
+  }
+}
+
+.wrapper {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.whyWeContainer {
+  margin-top: 93px;
+  margin-bottom: 100px;
+  .whyWeTitle {
+    text-align: center;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 62px;
+    margin: 0;
+  }
+
+  .whyWeCards {
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+  }
+
+  .whyWeCard {
+    width: 345px;
+    height: 178px;
+    padding: 24px;
+    border-left: 1px solid rgb(196, 205, 213);
+    border-right: 1px solid rgb(196, 205, 213);
+    margin-left: 30px;
+  }
+  .imgCardWhyWeContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tetCardContainer {
+    text-align: center;
+    margin-top: 32px;
+    .tetCardWhyWe {
+      width: 100%;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 32px;
+      color: rgb(69, 79, 91);
+    }
+  }
+}
+.CategoryTitleBlock {
+  display: flex;
+  justify-content: center;
+
+  .CategoryTitle {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 62px;
+    color: rgb(22, 28, 36);
+  }
+}
+.allCategoryBtnBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+  .allCategoryBtn {
+    padding: 12px 57px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: white;
+    background-color: rgb(66, 149, 228);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  .allCategoryBtn:hover {
+    background-color: #45a049;
+  }
+  .allCategoryBtn:focus {
+    outline: none; /* Убирает стандартную рамку браузера */
+  }
+  .allCategoryBtn:active {
+    background-color: #3e8e41;
+    transform: scale(0.98);
+  }
+}
+
+.popularProductTitle {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 100px;
+  .popularProductTitleH {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 62px;
+    color: rgb(22, 28, 36);
+    margin: 0;
+  }
+  .caruselPopularProduct {
+    .leftPopularProducr {
+      width: 40px;
+      height: 40px;
+    }
+    .rightPopularProduct {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+
+.popularProductHome {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 64px;
+  margin-bottom: 100px;
+}

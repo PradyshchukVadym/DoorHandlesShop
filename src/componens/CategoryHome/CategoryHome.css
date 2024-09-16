@@ -1,0 +1,48 @@
+.CategoryHomeContainer {
+  display: grid;
+  width: 1230px;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.CategoryCard {
+  position: relative;
+  max-width: 600px;
+  max-height: 470px;
+  height: 470px;
+  width: 600px;
+  display: flex;
+}
+
+.btnCategoryHome {
+  position: absolute;
+  left: 40px;
+  top: 70%;
+
+  .titleKeyInCompany {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 34px;
+    color: rgb(22, 28, 36);
+  }
+  .btnGoOver {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgb(22, 28, 36);
+    padding: 12px 78px;
+    background-color: rgb(22, 28, 36, 0);
+    margin-top: 16px;
+  }
+  .btnGoOver:hover {
+    background-color: #eef0e2;
+  }
+  .btnGoOver:focus {
+    outline: none; /* Убирает стандартную рамку браузера */
+  }
+  .btnGoOver:active {
+    background-color: #3e8e41;
+    transform: scale(0.98);
+  }
+}

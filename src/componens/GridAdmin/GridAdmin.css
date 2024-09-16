@@ -1,0 +1,68 @@
+.plusNewProduct {
+  display: flex;
+  justify-content: flex-end;
+  margin: 50px 15px;
+}
+
+.btnEditProduct {
+  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+  padding: 7px;
+  .imgEditProduct {
+    width: 15px;
+    height: 15px;
+  }
+}
+.btnEditProduct:active {
+  background-color: #fbfffc;
+  transform: scale(0.98);
+}
+.btnEditProduct:hover {
+  background-color: #fbfffc;
+}
+
+.btnDeleteProduct {
+  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+  padding: 7px;
+  .imgDeleteProduct {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+.btnDeleteProduct:active {
+  background-color: #fbfffc;
+  transform: scale(0.98);
+}
+.btnDeleteProduct:hover {
+  background-color: #fbfffc;
+}
+
+.gridPhoto {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgInGrid {
+  display: block;
+  max-width: 100%; /* Ширина не больше ширины контейнера */
+  max-height: 100%; /* Высота не больше высоты контейнера */
+  margin: 0 auto; /* Центровка изображения */
+  object-fit: cover; /* Масштабирование изображения с сохранением пропорций */
+  border-radius: 4px; /* Небольшие скругленные углы */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Легкая тень для объема */
+  transition: transform 0.3s ease; /* Плавное увеличение при наведении */
+}

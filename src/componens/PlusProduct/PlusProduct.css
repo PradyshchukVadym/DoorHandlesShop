@@ -1,0 +1,88 @@
+.product-form-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.product-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.form-row {
+  display: contents;
+}
+
+.btnSave {
+  grid-column: span 2;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.disabled-submit-btn {
+  opacity: 0.5;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+.upload-btn {
+  grid-column: span 2;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.upload-btn:hover {
+  background-color: #1976d2;
+}
+
+.form-row-Accordion {
+  display: flex;
+  flex-direction: column; /* Вертикальное выравнивание */
+  grid-column: span 2; /* Занимает две колонки (если форма с сеткой) */
+  width: 100%; /* Занимает всю ширину */
+  margin-bottom: 10px; /* Отступ снизу */
+}
+
+.form-row-Accordion label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.accordion-container .accordion-content {
+  padding: 10px;
+  display: none; /* Скрыт по умолчанию */
+}
+
+.accordion-container.active .accordion-content {
+  display: block; /* Показан, если активен */
+}
+
+.inputBox {
+  margin-top: 50px;
+}

@@ -1,0 +1,17 @@
+.formContainerTest {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.titleTestComp {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-Button {
+  padding: 15px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}

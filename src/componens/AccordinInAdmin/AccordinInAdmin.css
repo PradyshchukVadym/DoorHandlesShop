@@ -1,0 +1,41 @@
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px; /* Задает отступ между инпутами */
+  margin-bottom: 10px; /* Отступ между строками инпутов */
+}
+
+.characteristicsInput {
+  flex: 1; /* Позволяет инпутам равномерно занимать пространство */
+  min-width: 45%; /* Обеспечивает минимальную ширину инпутов */
+  box-sizing: border-box; /* Учитывает padding и border в ширину элемента */
+}
+
+.accordionInput {
+  min-width: 45%; /* Обеспечивает минимальную ширину инпутов */
+  box-sizing: border-box; /* Учитывает padding и border в ширину элемента */
+}
+
+.addBtnBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.addInput {
+  padding: 12px 37px;
+  background-color: rgb(66, 149, 228);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.addInput:hover {
+  background-color: #45a049;
+}
+
+.addInput:active {
+  background-color: #3e8e41;
+  transform: scale(0.98);
+}

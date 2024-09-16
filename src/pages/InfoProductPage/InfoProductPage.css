@@ -1,0 +1,180 @@
+.InfoProductPagecontainer {
+  margin: 0 100px;
+}
+
+.InfoProductPage {
+  display: flex;
+  margin-top: 50px;
+
+  .ImgBlockContainer {
+    .ImgBoxFirst {
+      width: 605px;
+      height: 513px;
+
+      .ImgFirst {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .ImgSecondBlock {
+      display: flex;
+      margin-top: 20px;
+      width: 605px;
+
+      .ImgBoxSecond {
+        max-width: 142px;
+        max-height: 143px;
+        width: 142px;
+        height: 143px;
+
+        .ImgSecond {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .ImgBoxSecond:nth-child(n + 2) {
+        margin-left: 12px;
+      }
+    }
+  }
+
+  .DescriptionProductContainer {
+    margin-left: 30px;
+
+    .titleDesc {
+      margin: 0 0 12px;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 30px;
+      color: rgb(22, 28, 36);
+    }
+    .suitableInDoor {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 24px;
+      color: rgb(22, 28, 36);
+    }
+
+    .suitableInDoorBlock {
+      display: flex;
+      align-items: center;
+
+      .checkMark {
+        display: flex;
+        width: 14px;
+        height: 14px;
+        background-color: rgb(66, 149, 228);
+        margin-right: 5px;
+
+        .imgCheckMark {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .choiceOption {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        color: rgb(69, 79, 91);
+      }
+    }
+    .complectatiom_Color {
+      display: flex;
+      margin-top: 24px;
+
+      .complectationBox {
+        width: 350px;
+
+        .complectationTitleDesc {
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 24px;
+        }
+        .complectationValue {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 24px;
+        }
+      }
+    }
+
+    .colorTextBox {
+      .colorTitle {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+      }
+
+      .colorBox {
+        display: flex;
+        margin-top: 8px;
+
+        .blackColor {
+          width: 40px;
+          height: 40px;
+          background-color: black;
+        }
+        .YelowColor {
+          width: 40px;
+          height: 40px;
+          background-color: rgb(226, 195, 85);
+          margin-left: 12px;
+        }
+      }
+    }
+
+    .priceBoxDesc {
+      display: flex;
+
+      .priceDesc {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 26px;
+      }
+
+      .discountPriceDesc {
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 26px;
+        color: rgb(164, 164, 164);
+        text-decoration: line-through;
+        margin-left: 12px;
+      }
+    }
+  }
+  .btnBoxBuy {
+    margin-top: 16px;
+    .BuyDesc {
+      padding: 15px 118px;
+      background-color: rgb(66, 149, 228);
+      color: white;
+      border: none;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .BuyDesc:hover {
+      background-color: rgb(50, 130, 200);
+      transform: scale(1.05);
+    }
+
+    .BuyDesc:active {
+      background-color: rgb(33, 99, 165);
+      transform: scale(0.98);
+    }
+
+    .BuyDesc:disabled {
+      background-color: rgb(200, 200, 200);
+      cursor: not-allowed;
+      opacity: 0.6;
+    }
+  }
+  .accordionProduct {
+    width: 85%;
+    margin-top: 32px;
+  }
+}

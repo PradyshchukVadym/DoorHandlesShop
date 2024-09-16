@@ -1,0 +1,87 @@
+.headerContainer {
+  width: 100%;
+  border-bottom: 1px solid #d3d3d3;
+
+  .header {
+    height: 82px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px 0 100px;
+  }
+
+  .logoHeader {
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+
+    .menuItems,
+    .menuItemsDownArrow {
+      color: rgb(22, 28, 36);
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 24px;
+      padding: 0;
+      margin: 0 0 0 32px;
+      cursor: pointer;
+    }
+
+    .downArrow {
+      margin-left: 8px;
+      cursor: pointer;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+
+  .numberPhone {
+    display: flex;
+    align-items: center;
+
+    .phoneImg {
+      height: 20px;
+      width: 20px;
+
+      .phoneHeader {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .number {
+      margin-left: 8px;
+      cursor: pointer;
+
+      .num {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+        color: rgb(69, 79, 91);
+      }
+    }
+    .favoriteBasket {
+      display: flex;
+      margin-left: 30px;
+
+      .favorite {
+        width: 32px;
+        height: 32px;
+
+        .favoriteSvg {
+          cursor: pointer;
+        }
+      }
+      .basket {
+        width: 32px;
+        height: 32px;
+        margin-left: 24px;
+
+        .basketSvg {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
